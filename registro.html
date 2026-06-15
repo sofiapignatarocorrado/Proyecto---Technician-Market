@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tm2.css">
+</head>
+<body>
+    <nav class="top-bar">
+        <img src="imagenes/logo-con-texto2.png" alt="">
+    </nav>
+    
+    <header></header>
+
+    <main>
+        <form action="registro.php" method="POST">  
+            <h2>Registrarse</h2>
+
+            <label>Usuario</label>
+            <input type="text" name="usuario" required placeholder="Ingrese su nombre de usuario">
+            <label>Nombre</label>
+            <input type="text" name="nombre" required placeholder="Ingrese su nombre">
+            <label>Apellido</label>
+            <input type="text" name="apellido" required placeholder="Ingrese su apellido">
+
+            <label>Localidad</label>
+            <input type="text" name="localidad" required placeholder="Ingrese su localidad">
+            
+            <label>Domicilio</label>
+            <input type="text" name="domicilio" required placeholder="Ingrese su domicilio">
+            <label>Contraseña</label>
+            <input type="password" name="pass" required placeholder="Ingrese su contraseña">
+            <label>Confirmar Contraseña</label>
+            <input type="password" name="pass2" required placeholder="Repita su contraseña">
+
+            <button class="boton" type="submit">Enviar</button>
+        </form>
+
+        <div class="opciones">
+        <p>¿Ya tenes cuenta?</p>
+        <a class="boton" href="inicio.html">Iniciar Sesión</a>
+        </div>
+    </main>
+
+
+    <footer>
+    <div class="footer-links">
+        <ul>
+            <li><a href="">Terminos y condiciones</a></li>
+            <li><a href="">Politica de privacidad</a></li>
+            <li><a href="">Contacto</a></li>
+            <li><a href="">Acerca de</a></li>
+        </ul>
+    </div>
+    <div class="footer-media">
+        <ul>
+            <li><a target="_blank" href="https://www.facebook.com"><img src="imagenes\facebook.png" alt=""></a></li>
+            <li><a target="_blank" href="https://x.com"><img src="imagenes\twitter.png" alt=""></a></li>
+            <li><a target="_blank" href="https://www.instagram.com"><img src="imagenes\instagram.png" alt=""></a></li>
+        </ul>
+    </div>
+    <p>© 2025 TechnianMarket. Todos los derechos reservados.</p>
+    </footer>    
+</body>
+</html>
